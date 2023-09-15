@@ -64,6 +64,8 @@ def phone_book_Options():
     if response == 2:
         phone_book_Options()
     if response == 700:
+
+
         main_menu()
 
 
@@ -138,7 +140,7 @@ def call_register_show_call_duration():
 
 
 def message_message_setting_common():
-    response = int(input("""
+    response = (input("""
     1. => Delivery reports
     2. => Reply via same center
     3. => Character support
@@ -202,7 +204,7 @@ def search():
 
 
 def service_Nos():
-    response = int(input("""
+    response = (input("""
       1.=> service Nos
       press 700 to go main menu
       """))
@@ -213,7 +215,7 @@ def service_Nos():
 
 
 def add_name():
-    response = int(input("""
+    response = (input("""
       1.=> Add name
        press 700 to go main menu
       """))
