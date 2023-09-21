@@ -15,3 +15,4 @@ while counter <= 10:
     print('passed:', passes)
     print('failures', failures)
 
+# this is a sentinel loop, refactor the code, you dont need counter
